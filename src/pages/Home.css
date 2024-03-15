@@ -6,27 +6,32 @@
   font-size: 50px;
   margin-bottom: 10px;
   color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .home h2 {
   font-size: 30px;
   margin-bottom: 10px;
   color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .home h3 {
   font-size: 25px;
   color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .home h4 {
   font-size: 20px;
   color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .home p {
   font-size: 25px;
   color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .container-home {
@@ -93,6 +98,8 @@
   justify-content: space-between;
   background-color: white;
   border: 1px solid black;
+  border-radius: 25%;
+  padding: 10px;
 }
 
 .logo-skill {

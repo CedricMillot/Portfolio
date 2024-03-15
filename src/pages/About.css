@@ -1,35 +1,60 @@
-.about h1 {
-  font-size: 50px;
-  margin-bottom: 10px;
-  color: black;
-}
-
-.about h2 {
-  font-size: 50px;
-  margin-bottom: 10px;
-  color: black;
-  margin-top: 20px;
-}
-
-.about h3 {
-  font-size: 35px;
-  color: black;
-  margin-top: 20px;
-}
-
-.about h4 {
-  font-size: 30px;
-  color: black;
-  margin-top: 30px;
-}
-
-.about p {
-  font-size: 25px;
-  color: black;
-  margin-top: 30px;
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .presentation-text {
+  background-color: #f9f9f9;
   padding: 20px;
-  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2-container {
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.about h2 {
+  color: #333;
+  font-family: "Madimi One", sans-serif;
+  margin-bottom: 10px;
+}
+
+.about h3 {
+  color: #444;
+  font-size: 1.2rem;
+  font-family: "Madimi One", sans-serif;
+  margin-bottom: 15px;
+}
+
+.about h4 {
+  color: #666;
+  font-size: 1.1rem;
+  font-family: "Madimi One", sans-serif;
+  margin-bottom: 10px;
+}
+
+.about h5 {
+  color: #666;
+  font-size: 2rem;
+  font-family: "Madimi One", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Madimi One", sans-serif;
+}
+
+.collapse-container {
+  width: 100%; /* Assure que le container prend toute la largeur disponible */
+}
+
+.collapse-content {
+  width: 100%; /* Assure que le contenu du collapse prend toute la largeur disponible */
 }

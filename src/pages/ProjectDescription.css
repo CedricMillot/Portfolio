@@ -11,16 +11,19 @@
   background-color: black;
   color: white;
   padding: 10px;
+  font-family: "Madimi One", sans-serif;
 }
 
 .project-image {
-  width: 40%; /* Définissez la largeur désirée pour chaque image */
+  width: 100%; /* Définissez la largeur désirée pour chaque image */
   height: 300px; /* Définissez la hauteur désirée pour chaque image */
   object-fit: cover; /* Pour s'assurer que l'image remplit complètement le conteneur tout en préservant son ratio d'aspect */
   margin: 10px;
-  border-radius: 5%;
   display: flex;
   justify-content: space-between;
+  border-radius: 10px; /* Pour arrondir les coins de l'image */
+  padding: 10px; /* Espace à l'intérieur du cadre */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre légère sans bordure */
 }
 
 .project-description {
@@ -38,6 +41,10 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  width: 80%;
   margin-top: 20px;
+  gap: 20px;
+}
+
+.a-project {
+  width: 45%;
 }

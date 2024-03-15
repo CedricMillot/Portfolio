@@ -18,12 +18,20 @@ function ProjectDetails() {
       <h2 className="project-title">{project.title}</h2>
       <div className="images-container">
         {project.pictures.map((picture, index) => (
-          <img
-            key={index}
-            src={picture}
-            alt={`description ${index}`}
-            className="project-image"
-          />
+          <div key={index} className="image-wrapper">
+            <a
+              className="a-project"
+              href={project.location}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={require(`../data/${picture}`)} // Mettez cet import en dehors du rendu JSX
+                alt={`description ${index}`}
+                className="project-image"
+              />
+            </a>
+          </div>
         ))}
       </div>
       <div className="collapse-container">

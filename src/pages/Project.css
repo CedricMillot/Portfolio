@@ -1,7 +1,7 @@
 .MapProject {
   max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   text-align: center;
 }
 
@@ -9,12 +9,15 @@
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 .TextProject {
   font-size: 18px;
-  color: #666; /* Couleur du texte */
+  color: white; /* Couleur du texte */
   margin-bottom: 40px;
+  font-family: "Madimi One", sans-serif;
 }
 
 /* Style du carousel */
@@ -37,4 +40,10 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Couleur de l'overlay */
   border-radius: 10px;
+}
+
+.Project-background {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

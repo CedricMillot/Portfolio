@@ -5,10 +5,12 @@ import CarouselComponent from "../components/carousel";
 const Project = () => {
   return (
     <div className="MapProject">
-      <h1 className="TitleProject">Mes projets</h1>
-      <p className="TextProject">
-        Veuillez trouver ci-dessous tous mes projets réalisé
-      </p>
+      <div className="Project-background">
+        <h1 className="TitleProject">Mes projets</h1>
+        <p className="TextProject">
+          Veuillez trouver ci-dessous tous mes projets réalisé
+        </p>
+      </div>
       <React.Fragment>
         <CarouselComponent />
       </React.Fragment>

@@ -24,6 +24,33 @@
   pointer-events: none;
 }
 
+.carousel-overlay p {
+  color: white; /* Changer la couleur du titre en blanc */
+  font-size: 30px;
+  margin-bottom: 5px;
+  border: 2px solid black; /* Ajouter un cadre autour du titre */
+  background-color: black;
+  padding: 5px; /* Ajouter un espace à l'intérieur du cadre */
+  font-family: "Madimi One", sans-serif;
+}
+
+.tag {
+  background-color: black;
+  color: white; /* Changer la couleur des tags en blanc */
+  padding: 5px 10px; /* Ajuster le rembourrage des tags */
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border: 2px solid black; /* Ajouter un cadre autour des tags */
+  margin-right: 20px;
+  font-family: "Madimi One", sans-serif;
+}
+
+.tags-container {
+  margin-top: 20px;
+}
+
 .carousel-inner {
   border-radius: 5%;
 }
