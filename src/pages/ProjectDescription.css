@@ -1,0 +1,43 @@
+.ProjectTitle {
+  text-align: center;
+}
+
+.project-details-container {
+  text-align: center;
+}
+
+.project-title {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.project-image {
+  width: 40%; /* Définissez la largeur désirée pour chaque image */
+  height: 300px; /* Définissez la hauteur désirée pour chaque image */
+  object-fit: cover; /* Pour s'assurer que l'image remplit complètement le conteneur tout en préservant son ratio d'aspect */
+  margin: 10px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-description {
+  margin-top: 20px;
+}
+
+.collapse-container {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+}

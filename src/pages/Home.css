@@ -1,0 +1,100 @@
+.home {
+  background-color: white;
+}
+
+.home h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.home h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.home h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.home h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.home p {
+  font-size: 25px;
+  color: white;
+}
+
+.container-home {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.text-home {
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-transition {
+  transition: all 2s ease-in-out;
+}
+
+.position-picture {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.presentation-text {
+  padding: 20px;
+}
+
+.skill h1 {
+  color: black;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.logo-skills {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.logo-skill {
+  width: 100%;
+}

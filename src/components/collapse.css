@@ -1,0 +1,49 @@
+.container-collapse {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.menu-button {
+  cursor: pointer;
+  padding: 10px 20px 10px 15px;
+  border-radius: 5px 5px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-button.open {
+  background-color: black;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.menu-button div:nth-child(2) {
+  transition: transform 0.8s ease;
+}
+
+.menu-button.open div:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+.description-container {
+  background-color: grey;
+  color: white;
+  border-radius: 5px 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+
+.menu-button.open + .description-container {
+  max-height: 500px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.description {
+  margin: 20px;
+}
