@@ -99,6 +99,9 @@
   .name-header {
     margin-bottom: 10px;
   }
+  .carousel-image {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -106,5 +109,6 @@
     text-decoration: none;
     color: black;
     font-size: 12px;
+    margin-right: 10px;
   }
 }
