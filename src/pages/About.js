@@ -11,7 +11,7 @@ function About() {
         </div>
         <h3>Bonjour, je m'appelle Cédric Millot,Développeur Web Junior</h3>
         <Collapse
-          title="Enthousiaste et passionné par les technologies du web"
+          title="Enthousiaste et passionné par les technologies"
           description={
             <p>
               Ma découverte du code il y a quelques années a déclenché une
@@ -21,6 +21,7 @@ function About() {
               OpenClassrooms.
             </p>
           }
+          className="custom-collapse" // Ajout de la classe personnalisée
         />
         <Collapse
           title="Motivé par l'apprentissage et l'innovation"

@@ -1,7 +1,9 @@
 .about {
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .presentation-text {
@@ -28,6 +30,7 @@
   font-size: 1.2rem;
   font-family: "Madimi One", sans-serif;
   margin-bottom: 15px;
+  text-align: center; /* Centrer le texte horizontalement */
 }
 
 .about h4 {
@@ -42,17 +45,17 @@
   font-size: 2rem;
   font-family: "Madimi One", sans-serif;
   margin-bottom: 20px;
+  text-align: center; /* Centrer le texte horizontalement */
+  margin-top: 40px;
 }
 
 .about p {
-  color: #777;
+  color: black;
   line-height: 1.6;
   margin-bottom: 20px;
   font-family: "Madimi One", sans-serif;
-}
 
-.collapse-container {
-  width: 100%; /* Assure que le container prend toute la largeur disponible */
+  padding: 10px;
 }
 
 .collapse-content {

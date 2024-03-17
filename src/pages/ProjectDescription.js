@@ -15,7 +15,12 @@ function ProjectDetails() {
 
   return (
     <div className="project-details-container">
-      <h2 className="project-title">{project.title}</h2>
+      <div className="banner-top">
+        <h2 className="project-title">{project.title}</h2>
+        <h3 className="title-git">
+          Cliquez sur un projet pour accéder à mon GitHub
+        </h3>
+      </div>
       <div className="images-container">
         {project.pictures.map((picture, index) => (
           <div key={index} className="image-wrapper">
@@ -34,12 +39,11 @@ function ProjectDetails() {
           </div>
         ))}
       </div>
-      <div className="collapse-container">
-        <Collapse
-          title="Description du projet"
-          description={<p className="description">{project.description}</p>}
-        />
-      </div>
+      <Collapse
+        title="Description du projet"
+        description={<p className="description">{project.description}</p>}
+        className="custom-width-collapse" // Ajoutez la classe spécifique
+      />
     </div>
   );
 }

@@ -1,13 +1,15 @@
 .container-collapse {
-  width: 70%;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
 }
 
 .menu-button {
   cursor: pointer;
   padding: 10px 20px 10px 15px;
-  border-radius: 5px 5px;
+  border-radius: 5px 5px 0px 0px;
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -31,12 +33,13 @@
 }
 
 .description-container {
-  background-color: #555;
   color: white;
   border-radius: 5px 5px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s;
+  font-size: 20px;
+  border: 1px solid black;
 }
 
 .menu-button.open + .description-container {

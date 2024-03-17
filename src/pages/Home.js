@@ -13,14 +13,12 @@ function Home() {
       <div className="container-home">
         <div className="text-home">
           <h1>Bienvenue</h1>
-          <p>Ceci est la page d'accueil de mon portfolio.</p>
           <p>
-            Je suis un développeur Web passionné par la création de sites web et
-            d'applications web.
-          </p>
-          <p>
-            Vous pouvez en apprendre plus sur moi et mes projets en explorant
-            mon portfolio.
+            Découvrez l'univers d'un développeur web passionné par la création
+            de sites et d'applications uniques. Parcourez mon portfolio pour en
+            apprendre davantage sur mes projets, mon parcours et ma passion pour
+            l'innovation numérique. Bienvenue dans mon espace où chaque ligne de
+            code raconte une histoire d'ingéniosité et de créativité.
           </p>
         </div>
         <div className="position-picture">
@@ -28,7 +26,7 @@ function Home() {
         </div>
       </div>
       <div className="skill">
-        <h1>Mes compétences</h1>
+        <h1>Mes compétences : </h1>
         <div className="logos">
           <div className="logo-skills">
             <img src={logohtml} alt="Logohtml" className="logo-skill" />

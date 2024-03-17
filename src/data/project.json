@@ -2,15 +2,15 @@
 	{
 		"id": "1",
 		"title": "Booki, agence de voyage",
-		"cover": "Booki.jpg",
+		"cover": "Booki.png",
 		"pictures": [
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg"
+			"Booki.png",
+			"Booki1.png",
+			"Booki2.png",
+			"Booki3.png"
 		],
 		"location" : "https://github.com/CedricMillot/Booki",
-		"description": "Dans le cadre de ma formation OpenClassrooms, j'ai été chargé d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée uniquement en HTML et CSS vanilla. Lors du développement, j'ai été confronté à mes premiers obstacles qui concernaient la gestion de la partie responsive, mais avec de l'acharnement, le projet a été mené à bien !",
+		"description": "Booki est une plateforme robuste et élégante de réservation de lieux de vacances. Le projet est le résultat d'une implémentation fidèle d'une maquette FIGMA sur trois interfaces distinctes : mobile, tablette, et ordinateur, ce projet démontre une maîtrise en développement front-end et en gestion d'infrastructure.",
 		"tags": [
 			"HTML",
 			"CSS",
@@ -18,60 +18,82 @@
 		]
 	},
 	{
-		"id": "1",
-		"title": "Booki, agence de voyage",
-		"cover": "Booki.jpg",
+		"id": "2",
+		"title": "Sophie Bluel - Architecte d'Intérieur",
+		"cover": "SophieBluel.png",
 		"pictures": [
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg"
+			"SophieBluel.png",
+			"SophieBluel1.png",
+			"SophieBluel2.png",
+			"SophieBluel3.png"
 		],
-		"location" : "https://github.com/CedricMillot/Booki",
+		"location" : "https://github.com/CedricMillot/Portfolio-architecte-sophie-bluel-",
 
-		"description": "Dans le cadre de ma formation OpenClassrooms, j'ai été chargé d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée uniquement en HTML et CSS vanilla. Lors du développement, j'ai été confronté à mes premiers obstacles qui concernaient la gestion de la partie responsive, mais avec de l'acharnement, le projet a été mené à bien !",
+		"description": "Sophie Bluel est un site de portfolio méticuleusement conçu pour une architecte d'intérieur. Le projet est né d'une maquette FIGMA et s'est transformé en une plateforme interactive avec une interface administrateur sécurisée. Le site permet la gestion dynamique des travaux via des modales. Déployé sur un serveur Debian avec Jenkins, et servi via Apache configuré comme Proxy pour NodeJS, ce projet illustre une expertise en développement Full Stack et en sécurisation de sites web.",
 		"tags": [
+			"Node.js",
 			"HTML",
 			"CSS",
-			"Responsive"
+			"Javascript"
 		]
 	},
 	{
-		"id": "1",
-		"title": "Booki, agence de voyage",
-		"cover": "Booki.jpg",
+		"id": "3",
+		"title": "Nina Carducci - Photographe",
+		"cover": "NinaCarducci.png",
 		"pictures": [
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg"
+			"NinaCarducci.png",
+			"NinaCarducci1.png",
+			"NinaCarducci2.png",
+			"NinaCarducci3.png"
 		],
-		"location" : "https://github.com/CedricMillot/Booki",
+		"location" : "https://github.com/CedricMillot/Nina-Carducci",
 
-		"description": "Dans le cadre de ma formation OpenClassrooms, j'ai été chargé d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée uniquement en HTML et CSS vanilla. Lors du développement, j'ai été confronté à mes premiers obstacles qui concernaient la gestion de la partie responsive, mais avec de l'acharnement, le projet a été mené à bien !",
+		"description": "Nina Carducci est un projet axé sur l'optimisation et le débogage d'un site existant pour une photographe professionnelle. Grâce à des outils d'analyse comme Lighthouse, diverses optimisations ont été apportées au site, améliorant les performances, l'accessibilité et le SEO.",
 		"tags": [
 			"HTML",
 			"CSS",
-			"Responsive"
+			"Javascript"
 		]
 	},
 	{
-		"id": "1",
-		"title": "Booki, agence de voyage",
-		"cover": "Booki.jpg",
+		"id": "4",
+		"title": "Kasa - Location d'Hébergements",
+		"cover": "Kasa.png",
 		"pictures": [
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg",
-			"Booki.jpg"
+			"Kasa.png",
+			"Kasa1.png",
+			"Kasa2.png",
+			"Kasa3.png"
 		],
-		"location" : "https://github.com/CedricMillot/Booki",
+		"location" : "https://github.com/CedricMillot/Projet-Kasa/tree/master",
 
-		"description": "Dans le cadre de ma formation OpenClassrooms, j'ai été chargé d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée uniquement en HTML et CSS vanilla. Lors du développement, j'ai été confronté à mes premiers obstacles qui concernaient la gestion de la partie responsive, mais avec de l'acharnement, le projet a été mené à bien !",
+		"description": "Kasa est une application immobilière construite avec ReactJS, conçue pour une expérience utilisateur sans faille. Le projet génère dynamiquement des composants à partir d'un fichier JSON, et intègre des éléments interactifs tels que des carousels et des collapse.Ce projet démontre une expertise en développement ReactJS et en gestion de contenu dynamique.",
 		"tags": [
+			"ReactJS",
 			"HTML",
 			"CSS",
-			"Responsive"
+			"Javascript"
+		]
+	},
+	{
+		"id": "5",
+		"title": "Mon Vieux Grimoire - Partage et Notation de Livres",
+		"cover": "MonVieuxGrimoire.png",
+		"pictures": [
+			"MonVieuxGrimoire.png",
+			"MonVieuxGrimoire1.png",
+			"MonVieuxGrimoire2.png",
+			"MonVieuxGrimoire3.png"
+		],
+		"location" : "https://github.com/CedricMillot/Mon-vieux-grimoire",
+
+		"description": "Mon Vieux Grimoire est une plateforme communautaire pour le partage et la notation de livres. Le backend NodeJS permet la création de comptes, l'authentification, et la gestion de livres et de notes. Le frontend ReactJS offre une expérience utilisateur fluide. ",
+		"tags": [
+			"ReactJS",
+			"NodeJS",
+			"Javascript",
+			"MongoDB"
 		]
 	}
 ]

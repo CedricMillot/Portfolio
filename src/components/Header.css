@@ -4,6 +4,7 @@
   top: 0;
   background-color: white;
   z-index: 10;
+  border-bottom: 1px solid black;
 }
 
 .container-header {
@@ -62,10 +63,10 @@
 }
 
 .nav-header a {
-  margin-right: 50px;
+  margin-right: 20px;
   text-decoration: none;
   color: black;
-  font-size: 40px;
+  font-size: 20px;
   font-family: "Madimi One", sans-serif;
 }
 
@@ -76,4 +77,34 @@
 .logo {
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-header {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-header {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
 }

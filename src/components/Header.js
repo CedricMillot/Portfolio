@@ -30,7 +30,7 @@ function Header() {
             rel="noreferrer noopener"
             className="lien-github"
           >
-            <img src={logoGithub} alt="Logo-GitHub" style={{ width: "50px" }} />
+            <img src={logoGithub} alt="Logo-GitHub" style={{ width: "30px" }} />
           </a>
           <a
             href="https://www.linkedin.com/in/cedric-millot-9229921b/"
@@ -41,7 +41,7 @@ function Header() {
             <img
               src={logoLinkedin}
               alt="Logo-linkedin"
-              style={{ width: "50px" }}
+              style={{ width: "30px" }}
             />
           </a>
         </nav>

@@ -3,10 +3,12 @@
 }
 
 .home h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: white;
   font-family: "Madimi One", sans-serif;
+  margin-top: 20px;
+  text-decoration: underline;
 }
 
 .home h2 {
@@ -29,7 +31,7 @@
 }
 
 .home p {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   font-family: "Madimi One", sans-serif;
 }
@@ -57,14 +59,19 @@
 .position-picture {
   display: flex;
   justify-content: flex-end;
-  margin-right: 150px;
+  margin-right: 50px;
+  margin-left: 150px;
 }
 
 .picture {
-  border-radius: 50%;
-  width: 70%;
+  border-radius: 50%; /* Applique une forme de cercle */
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Assure que l'image couvre complètement le conteneur */
+  height: auto;
   display: flex;
   justify-content: flex-end;
+  object-fit: cover;
 }
 
 .presentation-text {
@@ -93,15 +100,58 @@
 }
 
 .logo-skills {
-  width: 10%;
+  width: 8%;
   display: flex;
   justify-content: space-between;
   background-color: white;
-  border: 1px solid black;
-  border-radius: 25%;
+  border: 2px solid black;
+  border-radius: 20%;
   padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 3);
 }
 
 .logo-skill {
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .logos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo-skills {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+  }
+  .text-home {
+    text-align: center;
+    margin: auto;
+  }
+
+  .position-picture {
+    margin-bottom: 20px; /* Espace entre la photo et le texte */
+    margin: auto 0;
+    margin-bottom: 20px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logo-skills {
+    width: 30%;
+  }
 }
