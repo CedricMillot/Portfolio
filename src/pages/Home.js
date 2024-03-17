@@ -1,11 +1,11 @@
 import React from "react";
 import "./Home.css";
-import monImage from "../images/photo.png";
-import logohtml from "../images/logohtml.png";
-import logocss from "../images/logocss.png";
-import logoreact from "../images/logoreact.png";
-import logomongodb from "../images/logomongodb.png";
-import logonodejs from "../images/logonodejs.png";
+import monImage from "../images/photo.webp";
+import logohtml from "../images/logohtml.webp";
+import logocss from "../images/logocss.webp";
+import logoreact from "../images/logoreact.webp";
+import logomongodb from "../images/logomongodb.webp";
+import logonodejs from "../images/logonodejs.webp";
 
 function Home() {
   return (

@@ -31,6 +31,7 @@
   height: 300px;
   display: flex;
   justify-content: space-between;
+  object-fit: cover;
 }
 
 .project-description {
@@ -77,6 +78,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .project-image {
+    width: 500px;
+  }
+
   .images-container {
     display: flex;
     flex-direction: column;
@@ -86,9 +91,6 @@
     margin-bottom: 20px;
     width: 80%;
     object-fit: none;
-  }
-  .project-image {
-    object-fit: inherit;
   }
   .tag {
     width: 20%;

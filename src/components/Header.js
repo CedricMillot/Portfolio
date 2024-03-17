@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import logoGithub from "../images/logo-github.png";
-import logoLinkedin from "../images/logo-linkedin.png";
+import logoGithub from "../images/logo-github.webp";
+import logoLinkedin from "../images/logo-linkedin.webp";
 
 function Header() {
   return (

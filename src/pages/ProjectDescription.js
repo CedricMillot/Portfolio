@@ -8,9 +8,8 @@ function ProjectDetails() {
   const { id } = useParams();
   const project = jsonData.find((item) => item.id === id);
 
-  // Vérifiez si project est défini avant d'essayer d'accéder à ses propriétés
   if (!project) {
-    return <div>Projet non trouvé</div>; // Affiche un message si le projet n'est pas trouvé
+    return <div>Projet non trouvé</div>;
   }
 
   return (
@@ -31,7 +30,7 @@ function ProjectDetails() {
               rel="noopener noreferrer"
             >
               <img
-                src={require(`../data/${picture}`)} // Mettez cet import en dehors du rendu JSX
+                src={require(`../data/${picture}`)}
                 alt={`description ${index}`}
                 className="project-image"
               />
@@ -42,7 +41,7 @@ function ProjectDetails() {
       <Collapse
         title="Description du projet"
         description={<p className="description">{project.description}</p>}
-        className="custom-width-collapse" // Ajoutez la classe spécifique
+        className="custom-width-collapse"
       />
     </div>
   );

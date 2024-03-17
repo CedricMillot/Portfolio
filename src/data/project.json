@@ -2,12 +2,12 @@
 	{
 		"id": "1",
 		"title": "Booki, agence de voyage",
-		"cover": "Booki.png",
+		"cover": "Booki.webp",
 		"pictures": [
-			"Booki.png",
-			"Booki1.png",
-			"Booki2.png",
-			"Booki3.png"
+			"Booki.webp",
+			"Booki1.webp",
+			"Booki2.webp",
+			"Booki3.webp"
 		],
 		"location" : "https://github.com/CedricMillot/Booki",
 		"description": "Booki est une plateforme robuste et élégante de réservation de lieux de vacances. Le projet est le résultat d'une implémentation fidèle d'une maquette FIGMA sur trois interfaces distinctes : mobile, tablette, et ordinateur, ce projet démontre une maîtrise en développement front-end et en gestion d'infrastructure.",
@@ -20,12 +20,12 @@
 	{
 		"id": "2",
 		"title": "Sophie Bluel - Architecte d'Intérieur",
-		"cover": "SophieBluel.png",
+		"cover": "SophieBluel.webp",
 		"pictures": [
-			"SophieBluel.png",
-			"SophieBluel1.png",
-			"SophieBluel2.png",
-			"SophieBluel3.png"
+			"SophieBluel.webp",
+			"SophieBluel1.webp",
+			"SophieBluel2.webp",
+			"SophieBluel3.webp"
 		],
 		"location" : "https://github.com/CedricMillot/Portfolio-architecte-sophie-bluel-",
 
@@ -40,12 +40,12 @@
 	{
 		"id": "3",
 		"title": "Nina Carducci - Photographe",
-		"cover": "NinaCarducci.png",
+		"cover": "NinaCarducci.webp",
 		"pictures": [
-			"NinaCarducci.png",
-			"NinaCarducci1.png",
-			"NinaCarducci2.png",
-			"NinaCarducci3.png"
+			"NinaCarducci.webp",
+			"NinaCarducci1.webp",
+			"NinaCarducci2.webp",
+			"NinaCarducci3.webp"
 		],
 		"location" : "https://github.com/CedricMillot/Nina-Carducci",
 
@@ -59,12 +59,12 @@
 	{
 		"id": "4",
 		"title": "Kasa - Location d'Hébergements",
-		"cover": "Kasa.png",
+		"cover": "Kasa.webp",
 		"pictures": [
-			"Kasa.png",
-			"Kasa1.png",
-			"Kasa2.png",
-			"Kasa3.png"
+			"Kasa.webp",
+			"Kasa1.webp",
+			"Kasa2.webp",
+			"Kasa3.webp"
 		],
 		"location" : "https://github.com/CedricMillot/Projet-Kasa/tree/master",
 
@@ -79,12 +79,12 @@
 	{
 		"id": "5",
 		"title": "Mon Vieux Grimoire - Partage et Notation de Livres",
-		"cover": "MonVieuxGrimoire.png",
+		"cover": "MonVieuxGrimoire.webp",
 		"pictures": [
-			"MonVieuxGrimoire.png",
-			"MonVieuxGrimoire1.png",
-			"MonVieuxGrimoire2.png",
-			"MonVieuxGrimoire3.png"
+			"MonVieuxGrimoire.webp",
+			"MonVieuxGrimoire1.webp",
+			"MonVieuxGrimoire2.webp",
+			"MonVieuxGrimoire3.webp"
 		],
 		"location" : "https://github.com/CedricMillot/Mon-vieux-grimoire",
 

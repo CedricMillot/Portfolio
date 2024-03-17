@@ -6,12 +6,12 @@
 }
 
 .carousel-image {
-  width: 100%; /* Pour s'assurer que l'image remplit la largeur du conteneur */
-  height: 600px; /* Taille fixe pour toutes les images */
-  object-fit: cover; /* Pour s'assurer que l'image couvre la zone spécifiée tout en conservant son rapport d'aspect */
-  border-radius: 10px; /* Ajout des coins arrondis */
-  display: block; /* Pour centrer l'image horizontalement */
-  margin: 0 auto; /* Pour centrer l'image horizontalement */
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .carousel-overlay {
@@ -25,24 +25,24 @@
 }
 
 .carousel-overlay p {
-  color: white; /* Changer la couleur du titre en blanc */
+  color: white;
   font-size: 30px;
   margin-bottom: 5px;
-  border: 2px solid black; /* Ajouter un cadre autour du titre */
+  border: 2px solid black;
   background-color: black;
-  padding: 5px; /* Ajouter un espace à l'intérieur du cadre */
+  padding: 5px;
   font-family: "Madimi One", sans-serif;
 }
 
 .tag {
   background-color: black;
-  color: white; /* Changer la couleur des tags en blanc */
-  padding: 5px 10px; /* Ajuster le rembourrage des tags */
+  color: white;
+  padding: 5px 10px;
   border-radius: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
   font-size: 14px;
-  border: 2px solid black; /* Ajouter un cadre autour des tags */
+  border: 2px solid black;
   margin-right: 20px;
   font-family: "Madimi One", sans-serif;
 }
@@ -74,10 +74,19 @@
   .carousel {
     width: 80%;
   }
+  .carousel-image {
+    height: 400px;
+  }
+  .carousel-overlay p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .carousel {
     width: 90%;
+  }
+  .carousel-overlay p {
+    font-size: 15px;
   }
 }
